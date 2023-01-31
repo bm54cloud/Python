@@ -1,0 +1,15 @@
+# ACG Practice Labs
+
+# Use input function to prompt for input
+# Type 'input' then type input() and this will call it; you will get blank line; it's waiting for you to type something 
+
+>>> input
+<built-in function input>
+>>> input()
+My name is Brandi
+'My name is Brandi'
+>>> favorite = input("Favorite Color: ")
+Favorite Color: Opal
+>>> favorite
+'Opal'
+exit
