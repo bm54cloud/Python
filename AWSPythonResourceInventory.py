@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # Create a list of services using Python. IE: S3, Lambda, EC2, DynamoDB
-
 # The list should be empty initially.
 awspylist = []
 print(awspylist)
@@ -16,10 +15,11 @@ print(awspylist)
 print("The length of the list is", len(awspylist), "items")
 
 # Remove two specific services from the list by name or by index.
-
+del awspylist[2:]
 
 # Print the new list and the new length of the list.
-
+print(awspylist)
+print("The new length of the list is", len(awspylist), "items")
 
 
     
