@@ -6,22 +6,20 @@
 # If a user puts another department, print a message that they should not use this Name Generator. 
 # Be sure to account for incorrect upper or lowercase letters in the correct department. 
 
+import random
 instancenum = input("How many instances do you want to create names for? ")
 department = input("What is the name of your department (Marketing, Accounting, FinOps)? ")
 
 if department.lower() == 'marketing':
     print("Here are your unique EC2 instance names: ")
-    import random
     for i in range(int(instancenum)):
         print(department.capitalize(), random.randrange (9999999), sep="")
 elif department.lower() == 'accounting':
     print("Here are your unique EC2 instance names: ")
-    import random
     for i in range(int(instancenum)):
         print(department.capitalize(), random.randrange (9999999), sep="")
 elif department.lower() == 'finops':
     print("Here are your unique EC2 instance names: ")
-    import random
     for i in range(int(instancenum)):
         print('FinOps', random.randrange (9999999), sep="")
 else:
