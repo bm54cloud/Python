@@ -7,7 +7,7 @@
 # Be sure to account for incorrect upper or lowercase letters in the correct department. 
 
 instancenum = input("How many instances do you want to create names for? ")
-department = input("What is the name of your department? ")
+department = input("What is the name of your department (Marketing, Accounting, FinOps)? ")
 
 if department.lower() == 'marketing':
     print("Here are your unique EC2 instance names: ")
