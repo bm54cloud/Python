@@ -14,9 +14,9 @@ file_dict = dict()
 
 # Get list of file sizes in current working directory
 # Dictionary syntax is dict_name[key] = value
-for something in dir_list:
-    file_size = os.stat(something)
-    file_dict[something] = file_size
+for item in dir_list:
+    file_size = os.stat(item)
+    file_dict[item] = file_size
 
 # {:d} tells the formatter to treat the argument as an integer
 # {}'.format(name)
