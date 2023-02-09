@@ -1,6 +1,5 @@
 #!/usr/bin/env python3.7
 
-# Import OS module
 import os 
 
 # Build a script that extracts the name and size of a file in your current working directory
