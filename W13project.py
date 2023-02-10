@@ -9,7 +9,7 @@ path = os.getcwd()
 dir_list = list(os.listdir(path))
 
 # Create empty dictionary
-file_dict = dict()
+file_dict = {}
 
 # Get list of file sizes in current working directory and put them in dictionary
 # Dictionary syntax is dict_name[key] = value
