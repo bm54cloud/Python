@@ -1,5 +1,4 @@
-
-
+##THIS CODE DOES NOT PRINT TO A LIST OF DICTIONARIES
 #!/usr/bin/env python3.7
 
 import os 
