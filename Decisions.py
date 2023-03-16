@@ -16,7 +16,7 @@ print(number)
 # print(dir(random))
 
 # %%
-
+#This is a test comment
 # ADVANCED
 number = random.randint(0,10)
 thresh = 4
